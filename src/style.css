@@ -70,7 +70,7 @@ header {
     margin-bottom: 20px;
 }
 .cardDiv:hover {
-    box-shadow: 0 0 10px 1px;
+    box-shadow: 0 0 8px 3px lightgray;
 }
 .imgBlock {
     width: 250px;
