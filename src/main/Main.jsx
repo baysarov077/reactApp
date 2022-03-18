@@ -17,18 +17,18 @@ const Main = () => {
                     <Sidebar />
                 <div className='mainContant'>
                     
-                        <Card img={MacImg} price='97000 ₽' name='MacBook'/>
+                        <Card img={MacImg} price='97000 ₽' oldPlice='10000 ₽' name='MacBook'/>
                         <Card img={phone} price='35999 ₽' name='Galaxy'/>
-                        <Card img={skooter} price='58950 ₽' name='Скутер'/>
+                        <Card img={skooter} price='58950 ₽' oldPlice='65500 ₽' name='Скутер'/>
                     
                     
                         <Card img={tv} price='12000 ₽' name='Телвизор Samsung' />
                         <Card img={mask} price='500 ₽' name='Маска' />
-                        <Card img={machine} price='75000 ₽' name='Стиральная машина' />
+                        <Card img={machine} price='75000 ₽' oldPlice='10000 ₽' name='Стиральная машина' />
                   
-                        <Card img={freech} price='21550 ₽' name='Холодильник' />
+                        <Card img={freech} price='21550 ₽' oldPlice='43100 ₽' name='Холодильник' />
                         <Card img={colonka} price='3000 ₽' name='Колонка' />
-                        <Card img={buds} price='1275 ₽' name='Наушники' />
+                        <Card img={buds} price='1275 ₽' oldPlice='1500 ₽' name='Наушники' />
                     
                 </div>
             </section>

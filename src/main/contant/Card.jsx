@@ -8,7 +8,7 @@ const Card = (props) => {
                 <img className='cardImg' src={props.img} alt="err" />
             </div>
            <div className='itemAbout'>
-            <h3 className='price'>{props.price}</h3>
+            <h3 className='price'>{props.price} <strike className='oldPrice'>{props.oldPlice}</strike></h3>
             <p className='itemName'>{props.name}</p>
             <CardButton />
            </div>
